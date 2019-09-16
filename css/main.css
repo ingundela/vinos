@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600|Open+Sans:600,700,800|Oxygen:300,400&display=swap');
+
+html,
+body {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 1rem;
+	line-height: 1.7;
+	color: #474747;
+	font-weight: 300;
+	margin: 0 auto;
+	position: relative;
+	overflow-x: hidden;
+	text-rendering: optimizeLegibility;
+}
+
+p,
+li {
+	font-size: 1rem;
+	display: block;
+	line-height: 1.7;
+	margin-bottom: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	color: #fff;
+}
+img {
+	display: block;
+	max-width: 100%;
+    max-height: 100%;
+	text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.top-menu {
+	background: #ef5521;
+	color: #fff;
+	padding: 0;
+	margin: 0 auto;
+	height: 40px;
+}
+
+.contacts_email_cell {
+	display: inline-block;
+	margin-right: 10px;
+	padding-top: 7px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+.social li {
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+.social a {
+	color: #fff;
+	display: block;
+	text-align: center;
+}
+
+.navbar {
+	padding: 15px 0px;
+	box-shadow: 1px 4px 14px 3px rgba(79,109,122,.3);
+	position: relative;
+    z-index: 3;
+}
+
+.logo {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+
+.blue {
+	color: #6cc0e5;
+}
+.yellow {
+	color: #fbc93d;
+}
+
+.orange {
+	color: #ef5521;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	font-weight: 400;
+	text-transform: capitalize;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.5s ease;
+	color: #333333;
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+	padding: 5px 0;
+	margin-left: 30px;
+	font-size: 0.8rem;
+	letter-spacing: 1px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+	font-weight: 600;
+	border-bottom: 5px solid #ef5521;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #000;
+	border-bottom: 5px solid #ef5521;
+}
+
+/*--humberuger menu---*/
+
+.navbar-toggler span {
+	color: #000;
+	font-size: 25px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.navbar-toggler:focus {
+	outline: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+/*---compressed----*/
+
+.navbar.compressed {
+	padding: 2px 0px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-transition: all .38s ease-in-out;
+	transition: all .38s ease-in-out;
+}
+
+#hero-section {
+	background: linear-gradient(rgba(83, 120, 149, .75), rgba(0, 0, 0, 0.75)), url('../img/vinos_hero.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 550px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.title_hero {
+	color: #fff;
+	font-size: 3rem;
+	font-weight: 800;
+	text-transform: capitalize;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+.slogan {
+	display: block;
+	color: #fff;
+	font-size: 1.4rem;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: capitalize;
+}
+
+.btn {
+	background-color: #6cc0e5;
+	text-transform: capitalize;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+}
+
+.btn:hover {
+	background-color: rgba(108, 192, 229, .75);
+}
+
+.btn_button {
+	margin-top: 20px;
+}
+
+.btn:focus {
+	outline: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.mocambique {
+	background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+.mocambique h2 {
+	text-transform: capitalize;
+	color: #fff;
+	font-weight: 600;
+}
+
+.mocambique p {
+	color: #f2f2f2;
+}
+
+/*--como funciona--*/
+
+.section_space {
+	padding: 35px 0px;
+}
+
+.page_title {
+	text-transform: capitalize;
+	color: #ef5521;
+	font-family: 'Montserrat', sans-serif;
+	border-bottom: 2px solid #ef5521;
+	width: 300px;
+	margin: 0 auto;
+}
+.func_content {
+	margin-top: 40px;
+}
+
+.fun_title {
+	font-weight: 700;
+	margin-top: 15px;
+}
+
+/*--roteiros--*/
+
+.servicos .imagem {
+	-webkit-box-shadow: 2px 4px 17px -1px rgba(0,0,0,1);
+-moz-box-shadow: 2px 4px 17px -1px rgba(0,0,0,1);
+box-shadow: 2px 4px 17px -1px rgba(0,0,0,1);
+text-align: center;
+}
+
+.imagem {
+
+	margin: 0 auto;
+}
+
+.parque {
+	background: linear-gradient(rgba(83, 120, 149, .75), rgba(0, 0, 0, 0.75)),  url('../img/Parque_Mucapana-.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 390px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.katembe {
+	background: linear-gradient(rgba(83, 120, 149, .75), rgba(0, 0, 0, 0.75)),  url('../img/katembe.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 390px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.imagem h3 {
+	text-align: center;
+	margin: auto;
+}
+.servicos a{
+	color: #fff;
+	transition: 0.3s ease-in-out;
+}
+
+.servicos a:hover{
+	color: #ef5521;
+}
+
+/*--call to action--*/
+
+.call_action {
+background: url('../img/call.jpg');
+	height: 290px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	color: #fff;
+}
+
+.call_action .contacts_email_cell {
+	background: #46aef7;
+	padding: 10px 40px;
+	font-size: 1.2rem;
+	font-weight: 400;
+	margin-top: 10px;
+}
+
+/*--vantagens--*/
+
+.vantagem_content{
+	margin-top: 30px;
+}
+.vanta_content i {
+	color: #ef5521;
+	font-size: 2.5rem;
+}
+
+.vanta_content ul{
+	margin-top: 50px;
+}
+
+.vanta_list li{
+	padding-bottom: 10px;
+}
+
+.footer {
+	background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+	color: #fff;
+	width: 100%;
+    height: 50px; 
+    line-height: 50px;
+	text-align: center;  
+	  overflow: hidden;
+}
+
+.footer_contact {
+	margin-right: 10px;
+}
+
+.social_bottom li{
+	display: inline-block;
+	margin-left: 50px;
+	font-size: 2rem;
+	
+}
+
+.social_bottom i {
+	transition: 0.3s ease-in-out;
+}
+
+.social_bottom i:hover{
+	color: #ef5521;
+}
+
+.sb {
+	color: #46aef7;
+}
+
+/*---------------- PARQUE MUCAPANA --------------------*/
+
+
+
+#parque_mucapana {
+	background: linear-gradient(rgba(83, 120, 149, .75), rgba(0, 0, 0, 0.75)), url('../img/vinos_hero.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 250px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.roteiro_content h2{
+	margin-bottom: 30px;
+	color: #ef5521;
+}
+.roteiro_content i {
+	color: #ef5521;
+	padding-right: 10px;
+}
+.roteiro_content p {
+	line-height: 2.2;
+}
+.notes {
+	font-style: italic;
+	font-weight: 800;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.custos h3 {
+	color: #ef5521;
+}
+
+
+.number_preco {
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+
+}
+.notes.preco {
+	color: #46aef7;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.itinerario {
+	margin: 30px 0;
+}
+
+.itinerario h3 {
+	color: #ef5521;
+	text-transform: capitalize;
+}
+
+/*--- CONTACT FORM PAGE ---*/
+
+.contactForm {
+	padding: 40px 0;
+}
+
+.vinos_contact {
+	font-weight	: 800;
+
+}
+
+.contact_list i {
+	color: #ef5521;
+	padding-right: 10px;
+}
+
+.contact_list {
+	margin-top: 30px;
+}
+
+.contactForm ul {
+	padding	: 0 !important;
+}
+
+.contactForm p {
+	margin: 20px 0;
+}
+.bold {
+	font-weight: 800;
+	font-family: 'Montserrat', sans-serif;
+}
